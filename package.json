@@ -18,7 +18,8 @@
     "vue-router": "3.0.6",
     "vue-social-sharing": "2.4.3",
     "vuex": "3.1.1",
-    "axios": "0.18.0"
+    "axios": "0.18.0",
+    "vue-shortkey": "3.1.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.7.0",
