@@ -1,42 +1,39 @@
 {
-  "name": "vue-material-bemol",
-  "version": "1.2.0",
+  "name": "web",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --open",
-    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "vue-cli-service": "vue-cli-service"
+    "test:unit": "vue-cli-service test:unit --coverage",
+    "test:debug": "node --inspect-brk node_modules/.bin/vue-cli-service test:unit --no-cache --watch --runInBand"
   },
   "dependencies": {
     "axios": "0.18.0",
-    "chartist": "0.11.0",
-    "google-maps": "3.3.0",
-    "vee-validate": "2.2.7",
-    "vue-infinite-scroll": "2.0.2",
+    "core-js": "2.6.5",
     "vue": "2.6.10",
-    "vue-clickaway": "2.2.2",
-    "vue-github-buttons": "3.1.0",
     "vue-material": "1.0.0-beta-8",
-    "vue-router": "3.0.6",
+    "vue-router": "3.0.3",
     "vue-shortkey": "3.1.7",
-    "vue-social-sharing": "2.4.3",
     "vue-the-mask": "0.11.1",
-    "vuex": "3.1.1"
+    "vuex": "3.0.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.7.0",
     "@vue/cli-plugin-eslint": "3.7.0",
+    "@vue/cli-plugin-unit-jest": "3.7.0",
     "@vue/cli-service": "3.7.0",
     "@vue/eslint-config-prettier": "4.0.1",
     "@vue/test-utils": "1.0.0-beta.29",
-    "es6-promise": "4.2.6",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "10.0.1",
+    "babel-jest": "23.6.0",
     "eslint": "5.16.0",
-    "eslint-plugin-vue": "5.2.2",
-    "jest": "24.8.0",
-    "node-sass": "4.12.0",
+    "eslint-plugin-vue": "5.0.0",
+    "node-sass": "4.9.0",
     "sass-loader": "7.1.0",
-    "vue-template-compiler": "2.6.10"
+    "vue-template-compiler": "2.5.21",
+    "es6-promise": "4.2.6"
   }
 }
