@@ -17,7 +17,8 @@
     "vue-router": "3.0.3",
     "vue-shortkey": "3.1.7",
     "vue-the-mask": "0.11.1",
-    "vuex": "3.0.1"
+    "vuex": "3.0.1",
+    "vue-infinite-loading": "2.4.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "3.7.0",
@@ -33,7 +34,7 @@
     "eslint-plugin-vue": "5.0.0",
     "node-sass": "4.9.0",
     "sass-loader": "7.1.0",
-    "vue-template-compiler": "2.5.21",
+    "vue-template-compiler": "2.6.10",
     "es6-promise": "4.2.6"
   }
 }
