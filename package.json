@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit --coverage",
     "test:debug": "node --inspect-brk node_modules/.bin/vue-cli-service test:unit --no-cache --watch --runInBand",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook --port 8081 --ci -c .storybook/"
   },
   "dependencies": {
     "axios": "0.18.0",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@storybook/vue": "5.0.11",
+    "@storybook/addon-actions": "5.0.11",
     "@vue/cli-plugin-babel": "3.7.0",
     "@vue/cli-plugin-eslint": "3.7.0",
     "@vue/cli-plugin-unit-jest": "3.7.0",
